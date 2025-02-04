@@ -33,13 +33,16 @@ pip install -r requirements.txt
 GROQ_API_KEY = "your_groq_api_key"
 
 
+
 	4.	Click Save, and your app will use this key automatically!
+ 
 
 👉 Running Locally?
 	1.	Create a .streamlit/secrets.toml file in your project folder:
 
 [secrets]
 GROQ_API_KEY = "your_groq_api_key"
+
 
 
 	2.	Your local instance will now access the API key securely.
