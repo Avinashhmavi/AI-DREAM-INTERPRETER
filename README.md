@@ -1,4 +1,4 @@
-🌌 AI-Powered Dream Interpreter
+## 🌌 AI-Powered Dream Interpreter
 
 Welcome to AI-Powered Dream Interpreter, a Streamlit app that analyzes your dreams using AI. This tool combines psychology, mythology, and symbolic analysis to provide meaningful interpretations of your dreams.
 
@@ -87,6 +87,7 @@ groq
 	•	Emotional Tone: Excitement → Fear
 	•	Psychological Meaning: Fear of failure in real life
 	•	Mythological Connection: Similar to Icarus’ story
+
 
 📌 Contributing
 	1.	Fork the repository
