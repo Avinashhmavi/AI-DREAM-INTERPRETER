@@ -1,8 +1,9 @@
-🌌 AI-Powered Dream Interpreter
+###🌌 AI-Powered Dream Interpreter
 
 Welcome to AI-Powered Dream Interpreter, a Streamlit app that analyzes your dreams using AI. This tool combines psychology, mythology, and symbolic analysis to provide meaningful interpretations of your dreams.
 
 👉 **Click this link to view the live page:** [AI Dream Interpreter]([https://ai-dream-interpreter.streamlit.app/](https://ai-dream-interpreter.streamlit.app/)
+
 
 🚀 Features
 
@@ -46,7 +47,7 @@ GROQ_API_KEY = "your_groq_api_key"
 ▶️ Running the App
 
 📡 On Streamlit Cloud (Deployed Version)
-	•	If you deployed to Streamlit Cloud, just open your app URL and start using it!
+	•	Open the live page: AI Dream Interpreter
 
 💻 Locally on Your Machine
 
@@ -70,7 +71,6 @@ Here’s the list of required Python packages:
 
 streamlit
 groq
-python-dotenv
 
 (Note: If using Streamlit Cloud, python-dotenv is not required.)
 
@@ -93,6 +93,7 @@ python-dotenv
 	5.	Open a pull request 🚀
 
 📩 Contact
+
 
 📧 Email: avi.hm24@gmail.com
 
