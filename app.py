@@ -3,13 +3,12 @@ import os
 from groq import Groq
 from datetime import datetime
 from collections import Counter
-from dotenv import load_dotenv
 
-# Load environment variables from .env file
-load_dotenv()
+# Load API keys from Streamlit secrets
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
 # Set up the Groq client
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+client = Groq(api_key=GROQ_API_KEY)
 
 # Set page config
 st.set_page_config(page_title="Dream Interpreter AI", page_icon="🌌")
@@ -142,6 +141,6 @@ st.sidebar.markdown("""
 4. Track patterns over time in the sidebar
 
 **Requirements:**
-- Groq API key (in secrets.toml)
+- Groq API key (set in Streamlit Cloud secrets)
 - Python packages: streamlit, groq
 """)
