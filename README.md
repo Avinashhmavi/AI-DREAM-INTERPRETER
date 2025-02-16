@@ -19,7 +19,7 @@ Welcome to AI-Powered Dream Interpreter, a Streamlit app that analyzes your drea
 
 First, clone this repository and install required dependencies:
 
-git clone https://github.com/your-repo/dream-interpreter.git
+git clone https://github.com/Avinashhmavi/AI-DREAM-INTERPRETER.git
 cd dream-interpreter
 pip install -r requirements.txt
 
